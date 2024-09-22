@@ -3,9 +3,9 @@ Algoritmo ControlAcceso
     Definir tarjetaActiva, contrasenaReciente como Logico
     Escribir "Introduce el nivel de acceso (0-5):"
     Leer nivelAcceso
-    Escribir "¿La tarjeta está activa? (True/False):"
+    Escribir "Â¿La tarjeta estÃ¡ activa? (verdadero/Falso):"
     Leer tarjetaActiva
-    Escribir "¿La contraseña se cambió en los últimos 30 días? (True/False):"
+    Escribir "Â¿La contraseÃ±a se cambiÃ³ en los Ãºltimos 30 dÃ­as? (verdadero/Falso):"
     Leer contrasenaReciente
 	
     Si nivelAcceso >= 3 y tarjetaActiva y contrasenaReciente Entonces
