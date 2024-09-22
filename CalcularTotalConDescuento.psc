@@ -5,9 +5,9 @@ Algoritmo CalcularTotalConDescuento
 	
     Escribir "Introduce el total de la compra:"
     Leer totalCompra
-    Escribir "¿El cliente es VIP? (True/False):"
+    Escribir "Â¿El cliente es VIP? (verdadero/Falso):"
     Leer esVIP
-    Escribir "¿Tiene un código de descuento especial? (True/False):"
+    Escribir "Â¿Tiene un cÃ³digo de descuento especial? (verdadero/Falso):"
     Leer tieneCodigo
 	
     descuento = 0
@@ -25,5 +25,5 @@ Algoritmo CalcularTotalConDescuento
     FinSi
 	
     totalFinal = totalCompra - (totalCompra * descuento)
-    Escribir "El total a pagar después de los descuentos es:", totalFinal
+    Escribir "El total a pagar despuÃ©s de los descuentos es:", totalFinal
 FinAlgoritmo
